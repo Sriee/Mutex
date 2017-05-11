@@ -1,0 +1,157 @@
+4-20-2017 06:41:01 PM: Configuration [numOfNodes=3, nodeId=1, machine=dc03, port=21233]
+4-20-2017 06:41:01 PM: Setup Started
+4-20-2017 06:41:01 PM: I should wait for 1 connections
+4-20-2017 06:41:04 PM: Connected to 2 @ dc04.utdallas.edu
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=request, logicalClock=2, vectorClock=[1, 0, 0]]
+4-20-2017 06:41:04 PM: Sending okay to 0 : '3'
+4-20-2017 06:41:04 PM: Broadcasting request
+4-20-2017 06:41:04 PM: Sending request message to 0 : '4'
+4-20-2017 06:41:04 PM: Sending request message to 2 : '4'
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=request, logicalClock=2, vectorClock=[0, 0, 1]]
+4-20-2017 06:41:04 PM: Sending okay to 2 : '5'
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=okay, logicalClock=7, vectorClock=[5, 2, 2]]
+4-20-2017 06:41:04 PM: numOkay = 1
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=request, logicalClock=8, vectorClock=[6, 2, 2]]
+4-20-2017 06:41:04 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=okay, logicalClock=8, vectorClock=[5, 3, 5]]
+4-20-2017 06:41:04 PM: numOkay = 2
+4-20-2017 06:41:04 PM: Entered CS for req-1
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=request, logicalClock=10, vectorClock=[6, 3, 7]]
+4-20-2017 06:41:04 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:04 PM: Sending okay message to 0 : '11'
+4-20-2017 06:41:04 PM: Sending okay message to 2 : '11'
+4-20-2017 06:41:04 PM: Exited CS for req-1
+4-20-2017 06:41:04 PM: Broadcasting request
+4-20-2017 06:41:04 PM: Sending request message to 0 : '12'
+4-20-2017 06:41:04 PM: Sending request message to 2 : '12'
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=okay, logicalClock=13, vectorClock=[10, 8, 7]]
+4-20-2017 06:41:04 PM: numOkay = 1
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=request, logicalClock=14, vectorClock=[11, 8, 7]]
+4-20-2017 06:41:04 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=okay, logicalClock=15, vectorClock=[11, 8, 11]]
+4-20-2017 06:41:04 PM: numOkay = 2
+4-20-2017 06:41:04 PM: Entered CS for req-2
+4-20-2017 06:41:04 PM: Sending okay message to 0 : '16'
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=request, logicalClock=16, vectorClock=[11, 8, 12]]
+4-20-2017 06:41:04 PM: Exited CS for req-2
+4-20-2017 06:41:04 PM: Sending okay to 2 : '17'
+4-20-2017 06:41:04 PM: Broadcasting request
+4-20-2017 06:41:04 PM: Sending request message to 0 : '18'
+4-20-2017 06:41:04 PM: Sending request message to 2 : '18'
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=okay, logicalClock=19, vectorClock=[15, 13, 12]]
+4-20-2017 06:41:04 PM: numOkay = 1
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=request, logicalClock=20, vectorClock=[16, 13, 12]]
+4-20-2017 06:41:04 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=okay, logicalClock=21, vectorClock=[16, 13, 16]]
+4-20-2017 06:41:04 PM: numOkay = 2
+4-20-2017 06:41:04 PM: Entered CS for req-3
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=request, logicalClock=22, vectorClock=[16, 13, 17]]
+4-20-2017 06:41:04 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:04 PM: Sending okay message to 0 : '23'
+4-20-2017 06:41:04 PM: Sending okay message to 2 : '23'
+4-20-2017 06:41:04 PM: Exited CS for req-3
+4-20-2017 06:41:04 PM: Broadcasting request
+4-20-2017 06:41:04 PM: Sending request message to 0 : '24'
+4-20-2017 06:41:04 PM: Sending request message to 2 : '24'
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=okay, logicalClock=25, vectorClock=[20, 18, 17]]
+4-20-2017 06:41:04 PM: numOkay = 1
+4-20-2017 06:41:04 PM: Received Message [sender=0, Type=request, logicalClock=26, vectorClock=[21, 18, 17]]
+4-20-2017 06:41:04 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=okay, logicalClock=27, vectorClock=[21, 18, 21]]
+4-20-2017 06:41:04 PM: numOkay = 2
+4-20-2017 06:41:04 PM: Entered CS for req-4
+4-20-2017 06:41:04 PM: Received Message [sender=2, Type=request, logicalClock=28, vectorClock=[21, 18, 22]]
+4-20-2017 06:41:04 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:04 PM: Sending okay message to 0 : '29'
+4-20-2017 06:41:04 PM: Sending okay message to 2 : '29'
+4-20-2017 06:41:04 PM: Exited CS for req-4
+4-20-2017 06:41:04 PM: Broadcasting request
+4-20-2017 06:41:04 PM: Sending request message to 0 : '30'
+4-20-2017 06:41:04 PM: Sending request message to 2 : '30'
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=okay, logicalClock=31, vectorClock=[25, 23, 22]]
+4-20-2017 06:41:05 PM: numOkay = 1
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=request, logicalClock=32, vectorClock=[26, 23, 22]]
+4-20-2017 06:41:05 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=okay, logicalClock=32, vectorClock=[25, 23, 25]]
+4-20-2017 06:41:05 PM: numOkay = 2
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=request, logicalClock=34, vectorClock=[26, 23, 27]]
+4-20-2017 06:41:05 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:05 PM: Entered CS for req-5
+4-20-2017 06:41:05 PM: Sending okay message to 0 : '35'
+4-20-2017 06:41:05 PM: Sending okay message to 2 : '35'
+4-20-2017 06:41:05 PM: Exited CS for req-5
+4-20-2017 06:41:05 PM: Broadcasting request
+4-20-2017 06:41:05 PM: Sending request message to 0 : '36'
+4-20-2017 06:41:05 PM: Sending request message to 2 : '36'
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=okay, logicalClock=37, vectorClock=[30, 28, 27]]
+4-20-2017 06:41:05 PM: numOkay = 1
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=request, logicalClock=38, vectorClock=[31, 28, 27]]
+4-20-2017 06:41:05 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=okay, logicalClock=39, vectorClock=[31, 28, 31]]
+4-20-2017 06:41:05 PM: numOkay = 2
+4-20-2017 06:41:05 PM: Entered CS for req-6
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=request, logicalClock=40, vectorClock=[31, 28, 32]]
+4-20-2017 06:41:05 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:05 PM: Sending okay message to 0 : '41'
+4-20-2017 06:41:05 PM: Sending okay message to 2 : '41'
+4-20-2017 06:41:05 PM: Exited CS for req-6
+4-20-2017 06:41:05 PM: Broadcasting request
+4-20-2017 06:41:05 PM: Sending request message to 0 : '42'
+4-20-2017 06:41:05 PM: Sending request message to 2 : '42'
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=okay, logicalClock=43, vectorClock=[35, 33, 32]]
+4-20-2017 06:41:05 PM: numOkay = 1
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=request, logicalClock=44, vectorClock=[36, 33, 32]]
+4-20-2017 06:41:05 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=okay, logicalClock=45, vectorClock=[36, 33, 36]]
+4-20-2017 06:41:05 PM: numOkay = 2
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=request, logicalClock=46, vectorClock=[36, 33, 37]]
+4-20-2017 06:41:05 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:05 PM: Entered CS for req-7
+4-20-2017 06:41:05 PM: Sending okay message to 0 : '47'
+4-20-2017 06:41:05 PM: Sending okay message to 2 : '47'
+4-20-2017 06:41:05 PM: Exited CS for req-7
+4-20-2017 06:41:05 PM: Broadcasting request
+4-20-2017 06:41:05 PM: Sending request message to 0 : '48'
+4-20-2017 06:41:05 PM: Sending request message to 2 : '48'
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=okay, logicalClock=49, vectorClock=[40, 38, 37]]
+4-20-2017 06:41:05 PM: numOkay = 1
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=request, logicalClock=50, vectorClock=[41, 38, 37]]
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=okay, logicalClock=50, vectorClock=[41, 38, 41]]
+4-20-2017 06:41:05 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:05 PM: numOkay = 2
+4-20-2017 06:41:05 PM: Entered CS for req-8
+4-20-2017 06:41:05 PM: Received Message [sender=2, Type=request, logicalClock=52, vectorClock=[41, 38, 42]]
+4-20-2017 06:41:05 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:05 PM: Sending okay message to 0 : '53'
+4-20-2017 06:41:05 PM: Sending okay message to 2 : '53'
+4-20-2017 06:41:05 PM: Exited CS for req-8
+4-20-2017 06:41:05 PM: Broadcasting request
+4-20-2017 06:41:05 PM: Sending request message to 0 : '54'
+4-20-2017 06:41:05 PM: Sending request message to 2 : '54'
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=okay, logicalClock=55, vectorClock=[45, 43, 42]]
+4-20-2017 06:41:05 PM: numOkay = 1
+4-20-2017 06:41:05 PM: Received Message [sender=0, Type=request, logicalClock=56, vectorClock=[46, 43, 42]]
+4-20-2017 06:41:05 PM: Adding 0 to Pending Queue.
+4-20-2017 06:41:06 PM: Received Message [sender=2, Type=okay, logicalClock=57, vectorClock=[46, 43, 46]]
+4-20-2017 06:41:06 PM: numOkay = 2
+4-20-2017 06:41:06 PM: Received Message [sender=2, Type=request, logicalClock=58, vectorClock=[46, 43, 47]]
+4-20-2017 06:41:06 PM: Adding 2 to Pending Queue.
+4-20-2017 06:41:06 PM: Entered CS for req-9
+4-20-2017 06:41:06 PM: Sending okay message to 0 : '59'
+4-20-2017 06:41:06 PM: Sending okay message to 2 : '59'
+4-20-2017 06:41:06 PM: Exited CS for req-9
+4-20-2017 06:41:06 PM: Broadcasting request
+4-20-2017 06:41:06 PM: Sending request message to 0 : '60'
+4-20-2017 06:41:06 PM: Sending request message to 2 : '60'
+4-20-2017 06:41:06 PM: Received Message [sender=0, Type=okay, logicalClock=61, vectorClock=[50, 48, 47]]
+4-20-2017 06:41:06 PM: numOkay = 1
+4-20-2017 06:41:06 PM: Received Message [sender=0, Type=terminate, logicalClock=0, vectorClock=null]
+4-20-2017 06:41:06 PM: Received Message [sender=2, Type=okay, logicalClock=63, vectorClock=[50, 48, 50]]
+4-20-2017 06:41:06 PM: Listener 0 quiting..
+4-20-2017 06:41:06 PM: numOkay = 2
+4-20-2017 06:41:06 PM: Received Message [sender=2, Type=terminate, logicalClock=0, vectorClock=null]
+4-20-2017 06:41:06 PM: Listener 2 quiting..
+4-20-2017 06:41:06 PM: Entered CS for req-10
+4-20-2017 06:41:06 PM: Exited CS for req-10
+4-20-2017 06:41:06 PM: Sending terminate message to 0
+4-20-2017 06:41:06 PM: Sending terminate message to 2

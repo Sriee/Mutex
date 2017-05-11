@@ -1,0 +1,219 @@
+4-20-2017 08:37:19 PM: Configuration [numOfNodes=3, nodeId=2, machine=dc04, port=58243]
+4-20-2017 08:37:19 PM: Setup Started
+4-20-2017 08:37:19 PM: I should wait for 0 connections
+4-20-2017 08:37:19 PM: Broadcasting request
+4-20-2017 08:37:19 PM: Sending request message to 0 : '2'
+4-20-2017 08:37:19 PM: Sending request message to 1 : '2'
+4-20-2017 08:37:19 PM: Received Message [sender=0, Type=request, Clock=2, vectorClock=[2, 0, 0]]
+4-20-2017 08:37:19 PM: Queue: [2, -2147483648, 2]
+4-20-2017 08:37:19 PM: Sending reply to 0 : 'VectorClock [2, 0, 3]'
+4-20-2017 08:37:19 PM: Received Message [sender=1, Type=reply, Clock=5, vectorClock=[2, 5, 2]]
+4-20-2017 08:37:19 PM: numReply = 1
+4-20-2017 08:37:19 PM: Received Message [sender=1, Type=request, Clock=4, vectorClock=[2, 5, 2]]
+4-20-2017 08:37:19 PM: Queue: [2, 4, 2]
+4-20-2017 08:37:19 PM: Sending reply to 1 : 'VectorClock [2, 5, 7]'
+4-20-2017 08:37:19 PM: Received Message [sender=0, Type=reply, Clock=3, vectorClock=[3, 0, 2]]
+4-20-2017 08:37:19 PM: numReply = 2
+4-20-2017 08:37:19 PM: Received Message [sender=0, Type=release, Clock=6, vectorClock=[6, 4, 3]]
+4-20-2017 08:37:19 PM: Queue: [-2147483648, 4, 2]
+4-20-2017 08:37:19 PM: Entered CS for req-1
+4-20-2017 08:37:19 PM: Received Message [sender=0, Type=request, Clock=7, vectorClock=[7, 4, 3]]
+4-20-2017 08:37:19 PM: Queue: [7, 4, 2]
+4-20-2017 08:37:19 PM: Sending reply to 0 : 'VectorClock [7, 5, 10]'
+4-20-2017 08:37:19 PM: Sending release message to 0 : '10'
+4-20-2017 08:37:19 PM: Sending release message to 1 : '10'
+4-20-2017 08:37:19 PM: Exited CS for req-1
+4-20-2017 08:37:19 PM: Broadcasting request
+4-20-2017 08:37:19 PM: Sending request message to 0 : '11'
+4-20-2017 08:37:19 PM: Sending request message to 1 : '11'
+4-20-2017 08:37:19 PM: Received Message [sender=1, Type=release, Clock=11, vectorClock=[7, 11, 10]]
+4-20-2017 08:37:19 PM: Queue: [7, -2147483648, 11]
+4-20-2017 08:37:19 PM: Received Message [sender=1, Type=request, Clock=12, vectorClock=[7, 12, 10]]
+4-20-2017 08:37:19 PM: Queue: [7, 12, 11]
+4-20-2017 08:37:19 PM: Sending reply to 1 : 'VectorClock [7, 12, 13]'
+4-20-2017 08:37:19 PM: Received Message [sender=1, Type=reply, Clock=13, vectorClock=[7, 13, 11]]
+4-20-2017 08:37:19 PM: numReply = 1
+4-20-2017 08:37:19 PM: Received Message [sender=0, Type=reply, Clock=15, vectorClock=[15, 11, 11]]
+4-20-2017 08:37:19 PM: numReply = 2
+4-20-2017 08:37:19 PM: Received Message [sender=0, Type=release, Clock=16, vectorClock=[16, 12, 11]]
+4-20-2017 08:37:19 PM: Queue: [-2147483648, 12, 11]
+4-20-2017 08:37:19 PM: Entered CS for req-2
+4-20-2017 08:37:19 PM: Received Message [sender=0, Type=request, Clock=17, vectorClock=[17, 12, 11]]
+4-20-2017 08:37:19 PM: Queue: [17, 12, 11]
+4-20-2017 08:37:19 PM: Sending reply to 0 : 'VectorClock [17, 13, 18]'
+4-20-2017 08:37:19 PM: Sending release message to 0 : '18'
+4-20-2017 08:37:19 PM: Sending release message to 1 : '18'
+4-20-2017 08:37:19 PM: Exited CS for req-2
+4-20-2017 08:37:19 PM: Broadcasting request
+4-20-2017 08:37:19 PM: Sending request message to 0 : '19'
+4-20-2017 08:37:19 PM: Sending request message to 1 : '19'
+4-20-2017 08:37:19 PM: Received Message [sender=1, Type=release, Clock=20, vectorClock=[17, 20, 18]]
+4-20-2017 08:37:19 PM: Queue: [17, -2147483648, 19]
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=reply, Clock=21, vectorClock=[21, 12, 19]]
+4-20-2017 08:37:20 PM: numReply = 1
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=release, Clock=24, vectorClock=[24, 21, 19]]
+4-20-2017 08:37:20 PM: Queue: [-2147483648, -2147483648, 19]
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=request, Clock=21, vectorClock=[17, 21, 18]]
+4-20-2017 08:37:20 PM: Entered CS for req-3
+4-20-2017 08:37:20 PM: Queue: [-2147483648, 21, 19]
+4-20-2017 08:37:20 PM: Sending reply to 1 : 'VectorClock [24, 21, 26]'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=reply, Clock=22, vectorClock=[17, 22, 19]]
+4-20-2017 08:37:20 PM: numReply = 2
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=request, Clock=25, vectorClock=[25, 21, 19]]
+4-20-2017 08:37:20 PM: Queue: [25, 21, 19]
+4-20-2017 08:37:20 PM: Sending reply to 0 : 'VectorClock [25, 22, 28]'
+4-20-2017 08:37:20 PM: Sending release message to 0 : '28'
+4-20-2017 08:37:20 PM: Sending release message to 1 : '28'
+4-20-2017 08:37:20 PM: Exited CS for req-3
+4-20-2017 08:37:20 PM: Broadcasting request
+4-20-2017 08:37:20 PM: Sending request message to 0 : '29'
+4-20-2017 08:37:20 PM: Sending request message to 1 : '29'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=release, Clock=29, vectorClock=[25, 29, 28]]
+4-20-2017 08:37:20 PM: Queue: [25, -2147483648, 29]
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=reply, Clock=30, vectorClock=[25, 30, 29]]
+4-20-2017 08:37:20 PM: numReply = 1
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=request, Clock=31, vectorClock=[25, 31, 29]]
+4-20-2017 08:37:20 PM: Queue: [25, 31, 29]
+4-20-2017 08:37:20 PM: Sending reply to 1 : 'VectorClock [25, 31, 32]'
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=reply, Clock=32, vectorClock=[32, 27, 29]]
+4-20-2017 08:37:20 PM: numReply = 2
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=release, Clock=34, vectorClock=[34, 31, 29]]
+4-20-2017 08:37:20 PM: Queue: [-2147483648, 31, 29]
+4-20-2017 08:37:20 PM: Entered CS for req-4
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=request, Clock=35, vectorClock=[35, 31, 29]]
+4-20-2017 08:37:20 PM: Queue: [35, 31, 29]
+4-20-2017 08:37:20 PM: Sending reply to 0 : 'VectorClock [35, 31, 36]'
+4-20-2017 08:37:20 PM: Sending release message to 0 : '36'
+4-20-2017 08:37:20 PM: Sending release message to 1 : '36'
+4-20-2017 08:37:20 PM: Exited CS for req-4
+4-20-2017 08:37:20 PM: Broadcasting request
+4-20-2017 08:37:20 PM: Sending request message to 0 : '37'
+4-20-2017 08:37:20 PM: Sending request message to 1 : '37'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=release, Clock=39, vectorClock=[35, 39, 36]]
+4-20-2017 08:37:20 PM: Queue: [35, -2147483648, 37]
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=request, Clock=40, vectorClock=[35, 40, 36]]
+4-20-2017 08:37:20 PM: Queue: [35, 40, 37]
+4-20-2017 08:37:20 PM: Sending reply to 1 : 'VectorClock [35, 40, 41]'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=reply, Clock=41, vectorClock=[35, 41, 37]]
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=reply, Clock=40, vectorClock=[40, 37, 37]]
+4-20-2017 08:37:20 PM: numReply = 1
+4-20-2017 08:37:20 PM: numReply = 2
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=release, Clock=42, vectorClock=[42, 40, 37]]
+4-20-2017 08:37:20 PM: Queue: [-2147483648, 40, 37]
+4-20-2017 08:37:20 PM: Entered CS for req-5
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=request, Clock=43, vectorClock=[43, 40, 37]]
+4-20-2017 08:37:20 PM: Queue: [43, 40, 37]
+4-20-2017 08:37:20 PM: Sending reply to 0 : 'VectorClock [43, 41, 45]'
+4-20-2017 08:37:20 PM: Sending release message to 0 : '45'
+4-20-2017 08:37:20 PM: Sending release message to 1 : '45'
+4-20-2017 08:37:20 PM: Exited CS for req-5
+4-20-2017 08:37:20 PM: Broadcasting request
+4-20-2017 08:37:20 PM: Sending request message to 0 : '46'
+4-20-2017 08:37:20 PM: Sending request message to 1 : '46'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=release, Clock=47, vectorClock=[43, 47, 45]]
+4-20-2017 08:37:20 PM: Queue: [43, -2147483648, 46]
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=request, Clock=48, vectorClock=[43, 48, 45]]
+4-20-2017 08:37:20 PM: Queue: [43, 48, 46]
+4-20-2017 08:37:20 PM: Sending reply to 1 : 'VectorClock [43, 48, 49]'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=reply, Clock=49, vectorClock=[43, 49, 46]]
+4-20-2017 08:37:20 PM: numReply = 1
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=reply, Clock=49, vectorClock=[49, 46, 46]]
+4-20-2017 08:37:20 PM: numReply = 2
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=release, Clock=51, vectorClock=[51, 48, 46]]
+4-20-2017 08:37:20 PM: Queue: [-2147483648, 48, 46]
+4-20-2017 08:37:20 PM: Entered CS for req-6
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=request, Clock=52, vectorClock=[52, 48, 46]]
+4-20-2017 08:37:20 PM: Queue: [52, 48, 46]
+4-20-2017 08:37:20 PM: Sending reply to 0 : 'VectorClock [52, 49, 53]'
+4-20-2017 08:37:20 PM: Sending release message to 0 : '53'
+4-20-2017 08:37:20 PM: Sending release message to 1 : '53'
+4-20-2017 08:37:20 PM: Exited CS for req-6
+4-20-2017 08:37:20 PM: Broadcasting request
+4-20-2017 08:37:20 PM: Sending request message to 0 : '54'
+4-20-2017 08:37:20 PM: Sending request message to 1 : '54'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=release, Clock=55, vectorClock=[52, 55, 53]]
+4-20-2017 08:37:20 PM: Queue: [52, -2147483648, 54]
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=request, Clock=56, vectorClock=[52, 56, 53]]
+4-20-2017 08:37:20 PM: Queue: [52, 56, 54]
+4-20-2017 08:37:20 PM: Sending reply to 1 : 'VectorClock [52, 56, 57]'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=reply, Clock=57, vectorClock=[52, 57, 54]]
+4-20-2017 08:37:20 PM: numReply = 1
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=reply, Clock=57, vectorClock=[57, 54, 54]]
+4-20-2017 08:37:20 PM: numReply = 2
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=release, Clock=59, vectorClock=[59, 56, 54]]
+4-20-2017 08:37:20 PM: Queue: [-2147483648, 56, 54]
+4-20-2017 08:37:20 PM: Entered CS for req-7
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=request, Clock=60, vectorClock=[60, 56, 54]]
+4-20-2017 08:37:20 PM: Queue: [60, 56, 54]
+4-20-2017 08:37:20 PM: Sending reply to 0 : 'VectorClock [60, 57, 61]'
+4-20-2017 08:37:20 PM: Sending release message to 0 : '61'
+4-20-2017 08:37:20 PM: Sending release message to 1 : '61'
+4-20-2017 08:37:20 PM: Exited CS for req-7
+4-20-2017 08:37:20 PM: Broadcasting request
+4-20-2017 08:37:20 PM: Sending request message to 0 : '62'
+4-20-2017 08:37:20 PM: Sending request message to 1 : '62'
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=release, Clock=63, vectorClock=[60, 63, 61]]
+4-20-2017 08:37:20 PM: Queue: [60, -2147483648, 62]
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=reply, Clock=65, vectorClock=[60, 65, 62]]
+4-20-2017 08:37:20 PM: numReply = 1
+4-20-2017 08:37:20 PM: Received Message [sender=1, Type=request, Clock=64, vectorClock=[60, 65, 62]]
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=reply, Clock=65, vectorClock=[65, 62, 62]]
+4-20-2017 08:37:20 PM: Queue: [60, 64, 62]
+4-20-2017 08:37:20 PM: Sending reply to 1 : 'VectorClock [60, 65, 67]'
+4-20-2017 08:37:20 PM: numReply = 2
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=release, Clock=67, vectorClock=[67, 64, 62]]
+4-20-2017 08:37:20 PM: Queue: [-2147483648, 64, 62]
+4-20-2017 08:37:20 PM: Entered CS for req-8
+4-20-2017 08:37:20 PM: Received Message [sender=0, Type=request, Clock=68, vectorClock=[68, 64, 62]]
+4-20-2017 08:37:20 PM: Queue: [68, 64, 62]
+4-20-2017 08:37:20 PM: Sending reply to 0 : 'VectorClock [68, 65, 70]'
+4-20-2017 08:37:20 PM: Sending release message to 0 : '70'
+4-20-2017 08:37:20 PM: Sending release message to 1 : '70'
+4-20-2017 08:37:20 PM: Exited CS for req-8
+4-20-2017 08:37:20 PM: Broadcasting request
+4-20-2017 08:37:20 PM: Sending request message to 0 : '71'
+4-20-2017 08:37:20 PM: Sending request message to 1 : '71'
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=reply, Clock=73, vectorClock=[68, 73, 71]]
+4-20-2017 08:37:21 PM: numReply = 1
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=release, Clock=72, vectorClock=[68, 73, 71]]
+4-20-2017 08:37:21 PM: Queue: [68, -2147483648, 71]
+4-20-2017 08:37:21 PM: Received Message [sender=0, Type=reply, Clock=73, vectorClock=[73, 64, 71]]
+4-20-2017 08:37:21 PM: numReply = 2
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=request, Clock=74, vectorClock=[68, 74, 71]]
+4-20-2017 08:37:21 PM: Queue: [68, 74, 71]
+4-20-2017 08:37:21 PM: Received Message [sender=0, Type=release, Clock=76, vectorClock=[76, 74, 71]]
+4-20-2017 08:37:21 PM: Sending reply to 1 : 'VectorClock [73, 74, 77]'
+4-20-2017 08:37:21 PM: Queue: [-2147483648, 74, 71]
+4-20-2017 08:37:21 PM: Entered CS for req-9
+4-20-2017 08:37:21 PM: Received Message [sender=0, Type=request, Clock=77, vectorClock=[77, 74, 71]]
+4-20-2017 08:37:21 PM: Queue: [77, 74, 71]
+4-20-2017 08:37:21 PM: Sending reply to 0 : 'VectorClock [77, 74, 79]'
+4-20-2017 08:37:21 PM: Sending release message to 0 : '79'
+4-20-2017 08:37:21 PM: Sending release message to 1 : '79'
+4-20-2017 08:37:21 PM: Exited CS for req-9
+4-20-2017 08:37:21 PM: Broadcasting request
+4-20-2017 08:37:21 PM: Sending request message to 0 : '80'
+4-20-2017 08:37:21 PM: Sending request message to 1 : '80'
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=release, Clock=81, vectorClock=[77, 81, 79]]
+4-20-2017 08:37:21 PM: Queue: [77, -2147483648, 80]
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=reply, Clock=82, vectorClock=[77, 82, 80]]
+4-20-2017 08:37:21 PM: numReply = 1
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=request, Clock=83, vectorClock=[77, 83, 80]]
+4-20-2017 08:37:21 PM: Queue: [77, 83, 80]
+4-20-2017 08:37:21 PM: Sending reply to 1 : 'VectorClock [77, 83, 84]'
+4-20-2017 08:37:21 PM: Received Message [sender=0, Type=reply, Clock=82, vectorClock=[82, 74, 80]]
+4-20-2017 08:37:21 PM: numReply = 2
+4-20-2017 08:37:21 PM: Received Message [sender=0, Type=release, Clock=85, vectorClock=[85, 83, 80]]
+4-20-2017 08:37:21 PM: Queue: [-2147483648, 83, 80]
+4-20-2017 08:37:21 PM: Entered CS for req-10
+4-20-2017 08:37:21 PM: Received Message [sender=0, Type=terminate, Clock=0, vectorClock=null]
+4-20-2017 08:37:21 PM: Sending release message to 0 : '87'
+4-20-2017 08:37:21 PM: Sending release message to 1 : '87'
+4-20-2017 08:37:21 PM: Exited CS for req-10
+4-20-2017 08:37:21 PM: Sending terminate message to 0
+4-20-2017 08:37:21 PM: Sending terminate message to 1
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=release, Clock=91, vectorClock=[85, 91, 87]]
+4-20-2017 08:37:21 PM: Queue: [-2147483648, -2147483648, -2147483648]
+4-20-2017 08:37:21 PM: Received Message [sender=1, Type=terminate, Clock=0, vectorClock=null]
+4-20-2017 08:37:21 PM: [true, true, true]
+4-20-2017 08:37:21 PM: Listener 1 quiting..

@@ -1,0 +1,12 @@
+10 20 10 1000
+
+0 dc02.utdallas.edu 11234 # nodeID hostName listenPort
+1 dc03.utdallas.edu 21233
+2 dc04.utdallas.edu 58243
+3 dc20.utdallas.edu 45643
+4 dc21.utdallas.edu 36312
+5 dc08.utdallas.edu 25012
+6 dc23.utdallas.edu 14312
+7 dc24.utdallas.edu 16422
+8 dc25.utdallas.edu 27532
+9 dc26.utdallas.edu 36001
