@@ -66,6 +66,8 @@ Use ‘mutex_checker.py’ script which checks for interleaving of lines by the 
 
 #### Output
 
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25959252/b7d46a98-3638-11e7-9ebf-8992086746ea.png)
+
 
 ### Method 2	
 
@@ -77,7 +79,15 @@ Use ‘clock_checker.py’ to check for concurrency. Execute the following synta
 
 #### Output
 
-#### Corrupted Output 
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25959214/a5a03d02-3638-11e7-9481-8c403e9a4cd5.png)
+
+#### Corrupted Clock Output 
+
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25959292/cfb17750-3638-11e7-951e-434644570c4d.png)
+
+#### Corrupted Mutex Output
+
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25959313/dab8face-3638-11e7-8f71-a8be29695260.png)
 
 ## Supported Environments
 
