@@ -1,11 +1,9 @@
 # Mutex
-Implementation of Lamport &amp; Ricarta, Agarwala mutual exclusion algorithm
-
 
 Implement a mutual exclusion service using two different distributed mutual exclusion algorithm:
 
-1. Lamport’s algorithm
-2. Ricart and Agrawala’s algorithm.
+1. ***Lamport’s algorithm***
+2. ***Ricart and Agrawala’s algorithm.***
 
 Your service should provide two function calls to the application: *csEnter()* and *csLeave()*. The first function call *csEnter()* allows an application to request permission to start executing its critical section. The function call is blocking and returns only when the invoking application can execute its critical section. The second function call *csLeave()* allows an application to inform the service that it has finished executing its critical section.
 
