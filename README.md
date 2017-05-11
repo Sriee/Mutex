@@ -30,6 +30,10 @@ The **fourth token** is the number of requests each node should generate.
 
 After the first valid line, the next *n* lines consist of three tokens. The first token is the node ID. The second token is the host-name of the machine on which the node runs. The third token is the port on which the node listens for incoming connections. The parser is robust concerning leading and trailing white space or extra lines at the beginning or end of file, as well as interleaved with valid lines. The *‘#’* character will denote a comment. On any valid line, any characters after a *‘#’* character should be ignored.
 
+#### Sample output for configuration 
+
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25959185/92146a6a-3638-11e7-8b0e-301131a5ecfb.png)
+
 ## Launching the application
 
 *‘launcher.sh’* will launch multiple instances of the application as nodes in the machine that you have entered in the configuration file. 
@@ -47,10 +51,6 @@ Run cleanup using the following syntax
 `sh cleanup.sh <path/of/configuration/file.txt>`
 
 **Note:** Both launcher and cleanup script depend on the correct configuration file to run.
-
-## Supported Environments
-
-The program is built, executed and tested on CentOS and Ubuntu machines. It won’t run for Windows and Mac Machines (though porting them to other operating system is trivial).    
 
 ## Testing Correctness:
 
@@ -78,6 +78,10 @@ Use ‘clock_checker.py’ to check for concurrency. Execute the following synta
 #### Output
 
 #### Corrupted Output 
+
+## Supported Environments
+
+The program is built, executed and tested on CentOS and Ubuntu machines. It won’t run for Windows and Mac Machines (though porting them to other operating system is trivial).    
 
 ## Licence 
 
