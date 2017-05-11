@@ -7,10 +7,9 @@ public class VectorClock {
 	private int[] vc;
 	private int myId;
 	private int numProc;
+	
 	/**
-	 * This is a modified version of Vector clock. This Vector
-	 * clock only takes care of number of messages received by process
-	 * Pi to Pj
+	 * Implementation of Fidge/Martin Vector clock
 	 * 
 	 * @param myId
 	 * @param numProc
@@ -35,12 +34,7 @@ public class VectorClock {
 	public synchronized void sendEvent(){
 		this.vc[this.myId]++;
 	}
-/*	
-	public synchronized void receiveEvent(int j, int receivedValue){
-		this.vc[j] = this.max(this.vc[j], receivedValue);
-		this.vc[this.myId] = this.max(this.vc[this.myId], receivedValue) + 1;
-	}
-*/
+	
 	public synchronized void receiveEvent(int[] received){
 		for(int k = 0; k < numProc; k++)
 			this.vc[k] = this.max(this.vc[k], received[k]);
